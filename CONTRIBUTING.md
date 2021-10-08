@@ -15,7 +15,7 @@ We love pull requests. Here's a quick guide:
    1. `npm install` or `yarn install`
 1. Create a new branch for your contribution
 1. Add [tests](test/) (run with `npm test` or `yarn test`)
-1. Push to your fork and submit a pull request
+1. Push to your fork and submit a pull request to `develop` branch
    1. `git push <my-new-branch>`
 
 At this point you're waiting on us. We like to at least comment on, if not
