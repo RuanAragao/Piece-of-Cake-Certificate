@@ -1,6 +1,8 @@
 # Piece of Cake Certificate
 
-_Create your certificate super easy!_
+#### _Create your certificate super easy!_
+
+This project is a web application to create in an agile and simple way, using drag and drop interface, one or several certificates.
 
 Bootstrap a developer-friendly NextJS app configured with:
 
