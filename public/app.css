@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.app-container {
+  font-family: 'Roboto', sans-serif;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.app-sidebar {
+  float: left;
+  height: calc(100vh - 26px);
+  padding: 26px 33px 0 33px;
+  position: relative;
+  width: calc(333px - 33px - 33px);
+}
+
+.app-certificate-elements {
+  column-gap: 16px;
+  display: grid;
+  grid-template-columns: 125px 125px;
+  margin-top: 52px;
+  row-gap: 18px;
+}
+
+.app-button {
+  background: #E5E5E5;
+  border: 0;
+  border-radius: 3px;
+  color: #333333;
+  cursor: pointer;
+  font-size: 18px;
+  min-height: 55px;
+  padding: 0;
+}
+
+.app-button:hover {
+  background: #EFEFEF;
+}
+
+.app-download-certificates {
+  bottom: 30px;
+  font-size: 24px;
+  line-height: 55px;
+  padding-left: 24px;
+  position: absolute;
+  right: 33px;
+}
+
+.app-download-certificates div {
+  background: #C4C4C4;
+  border-bottom-right-radius: 3px;
+  border-top-right-radius: 3px;
+  float: right;
+  height: 55px;
+  margin-left: 13px;
+  padding: 0 10px;
+}
+
+.app-download-certificates:hover div {
+  background: #CACACA;
+}
+
+.app-download-certificates img {
+  margin-top: 25%;
+}
+
+.app-content {
+  align-items: center;
+  background: #E5E5E5;
+  display: flex;
+  float: left;
+  height: 100vh;
+  justify-content: center;
+  width: calc(100% - 333px);
+}
+
+.app-certificate {
+  background: white;
+  margin: 0 auto;
+  position: relative;
+}
+
+.app-certificate--a4 {
+  height: calc((100vw - 200px - 333px) * 0.707070);
+  width: calc(100vw - 200px - 333px);
+}
+
+.app-paper-name {
+  color: #E5E5E5;
+  font-size: 48px;
+  line-height: 56px;
+  position: relative;
+  text-align: center;
+  top: calc(50% - 28px);
+}
