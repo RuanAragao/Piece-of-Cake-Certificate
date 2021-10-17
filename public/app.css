@@ -7,6 +7,8 @@ body {
 
 .app-container {
   font-family: 'Roboto', sans-serif;
+  height: 100vh;
+  overflow: hidden;
 }
 
 .app-sidebar {
@@ -68,9 +70,12 @@ body {
 }
 
 .app-content {
+  align-items: center;
   background: #E5E5E5;
+  display: flex;
   float: left;
   height: 100vh;
+  justify-content: center;
   width: calc(100% - 333px);
 }
 
@@ -78,7 +83,6 @@ body {
   background: white;
   margin: 0 auto;
   position: relative;
-  top: 100px;
 }
 
 .app-certificate--a4 {
